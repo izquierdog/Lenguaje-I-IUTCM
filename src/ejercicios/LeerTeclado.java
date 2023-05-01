@@ -19,6 +19,7 @@ public class LeerTeclado {
         System.out.println("ingrese su  nombre");
         String nombre = teclado.nextLine();
         System.out.println("Su nombre es "+nombre);
+        System.out.println("su nombre contiene "+nombre.length()+" caracteres ");
     }
     
 }
