@@ -23,6 +23,13 @@ public class OperadoresAritmeticos {
         valor2 = t.nextInt();
         int suma = valor1 + valor2;
         System.out.println("La suma de los números da un total de "+suma);
+        double div, n1, n2;
+        System.out.println("Ingrese valor para numero 1");
+        n1 = t.nextDouble();
+        System.out.println("Ingrese el valor para numero 2");
+        n2 = t.nextDouble();
+        div = n1 / n2;
+        System.out.println("El resultado de la división es "+div);
     }
     
 }
